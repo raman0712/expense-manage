@@ -1,14 +1,6 @@
 const transectionModel = require("../models/transectionModel");
 const moment = require("moment");
-// const getAllTransection = async (req,res) => {
-//   try{
-//     const transections = await transectionModel.find({});
-//     res.status(200).json(transections);
-//   }catch(error){
-//     console.log(error);
-//     res.status(500).json(error);
-//   }
-// };
+
 
 const getAllTransection = async (req, res) => {
   try {
